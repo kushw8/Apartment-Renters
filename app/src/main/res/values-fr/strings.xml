@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RentalApp</string>
+    <string name="hello_blank_fragment">bonjour_blank_fragment</string>
+    <string name="title_activity_maps">title_activity_maps</string>
+    <string name="login">CONNEXION</string>
+    <string name="email">E-mail</string>
+    <string name="password">Mot de passe</string>
+    <string name="register">S\'INSCRIRE</string>
+    <string name="Forgot_password">mot de passe oublié?</string>
+    <string name="firstname">PRÉNOM</string>
+    <string name="secondname">"NOM DE FAMILLE "</string>
+    <string name="emailaddress">"ADRESSE E-MAIL "</string>
+    <string name="phone">TÉLÉPHONE</string>
+    <string name="changepassword">"Changer le mot de passe "</string>
+    <string name="logoutofrentalapp">"Se déconnecter de RentalApp "</string>
+    <string name="searchbylocation">" Recherche par emplacement"</string>
+    <string name="price">le prix</string>
+    <string name="setlimit">Définir une limite</string>
+    <string name="contactusdesc">Il s\'agit d\'une application de location d\'appartement créée par cinq étudiants du cégep dans le cadre de leur projet de dernière année</string>
+    <string name="contactus">Nous contacter</string>
+    <!-- Firestore Strings -->
+    <string name="collection_users">Users</string>
+    <string name="collection_chatrooms">Chatrooms</string>
+    <string name="collection_chat_messages">Chat Messages</string>
+    <string name="collection_chatroom_user_list">User List</string>
+    <!-- Intent extras -->
+    <string name="intent_chatroom">intent_chatroom</string>
+    <string name="intent_user_list">intent_user_list</string>
+</resources>

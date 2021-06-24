@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/app_background"
+    tools:context=".home2Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_send_announcement"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:background="@drawable/input_design2"
+            android:text="Send Announcements"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_view_report"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:background="@drawable/input_design2"
+            android:text="View User Reports"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_view_chat_history"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:visibility="invisible"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:background="@drawable/input_design2"
+            android:text="View Chat History"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_admin_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Out"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/input_design2"
+            tools:layout_editor_absoluteX="101dp"
+            android:layout_marginTop="20dp"
+            tools:layout_editor_absoluteY="164dp"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_bar_EN"
+        android:icon="@drawable/ic_en"
+        app:showAsAction="always"
+        android:title="EN" />
+    <item
+        android:id="@+id/action_bar_FR"
+        android:icon="@drawable/ic_fr"
+        app:showAsAction="always"
+        android:title="FR"  />
+    <item
+        android:id="@+id/action_bar_About_US"
+        android:icon="@drawable/ic_baseline_home_24"
+        app:showAsAction="always"
+        android:title="Conatct Us" />
+    <item
+        android:id="@+id/action_bar_notification1"
+        android:icon="@drawable/ic_baseline_notifications_24"
+        app:showAsAction="always"
+        android:title="Exit" />
+    <item
+        android:id="@+id/action_bar_About_Signout"
+        android:icon="@drawable/ic_baseline_exit_to_app_24"
+        app:showAsAction="always"
+        android:title="Exit" />
+
+</menu>

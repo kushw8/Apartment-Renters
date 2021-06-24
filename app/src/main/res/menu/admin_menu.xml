@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home2Fragment"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_home_24"/>
+    <item
+        android:id="@+id/usersFragment"
+        android:title="Users"
+        android:icon="@drawable/ic_baseline_group_24"
+        />
+    <item
+        android:id="@+id/adsFragment"
+        android:title="Ads"
+        android:icon="@drawable/ic_baseline_view_apartments_24"
+        />
+    <item
+        android:id="@+id/chatFragment"
+        android:title="Chats"
+        android:icon="@drawable/ic_baseline_chat_bubble_outline_24"
+        />
+</menu>

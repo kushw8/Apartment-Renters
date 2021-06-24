@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:orientation="vertical"
+    android:background="@drawable/app_background">
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/splash_logo"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:cardCornerRadius="15dp"
+        android:elevation="5dp"
+
+        android:layout_marginTop="10dp"
+        android:padding="20dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            android:padding="15dp">
+
+            <EditText
+                android:id="@+id/register_firstname"
+                android:layout_width="310dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:hint="First Name"
+                android:background="@drawable/input_design"
+                android:drawableStart="@drawable/ic_baseline_person_24"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:inputType="none"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp" />
+
+            <EditText
+                android:id="@+id/register_secondname"
+                android:layout_width="310dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:hint="Last Name"
+                android:background="@drawable/input_design"
+                android:drawableStart="@drawable/ic_baseline_person_24"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:inputType="none"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp" />
+
+            <EditText
+                android:id="@+id/register_phone"
+                android:layout_width="310dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:hint="Phone"
+                android:background="@drawable/input_design"
+                android:drawableStart="@drawable/ic_baseline_phone_24"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:inputType="none"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"/>
+
+            <EditText
+                android:id="@+id/register_Email"
+                android:layout_width="310dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/input_design"
+                android:drawableStart="@drawable/ic_baseline_email_24"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="textPersonName"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp" />/>
+
+            <EditText
+                android:id="@+id/register_password"
+                android:layout_width="310dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/input_design"
+                android:drawableStart="@drawable/ic_baseline_lock_24"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="password"
+                android:inputType="textPassword"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_margin="10dp">
+
+                <RadioButton
+                    android:id="@+id/radio_Register_Tenant"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/radiobuttonselecter"
+                    android:button="@drawable/radiobuttonnormal"
+                    android:text="Tenant"
+                    android:padding="15dp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:textSize="22dp" />
+
+                <RadioButton
+                    android:id="@+id/radio_Register_Renter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:padding="15dp"
+                    android:background="@drawable/radiobuttonselecter"
+                    android:button="@drawable/radiobuttonnormal"
+                    android:text="Renter"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:textSize="22dp" />
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/register_BTN"
+                android:layout_width="310dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/input_design2"
+                android:text="Register"
+                android:textColor="@color/White"
+                tools:layout_editor_absoluteX="103dp"
+                tools:layout_editor_absoluteY="282dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/login_BTN"
+                android:layout_width="310dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/input_design2"
+                android:text="login"
+                android:textColor="@color/White"
+                tools:layout_editor_absoluteX="103dp"
+                tools:layout_editor_absoluteY="282dp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

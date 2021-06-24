@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/admin_nav"
+    app:startDestination="@id/home2Fragment">
+
+    <fragment
+        android:id="@+id/home2Fragment"
+        android:name="com.example.rentalapp.home2Fragment"
+        android:label="fragment_home2"
+        tools:layout="@layout/fragment_home2" />
+    <fragment
+        android:id="@+id/usersFragment"
+        android:name="com.example.rentalapp.UsersFragment"
+        android:label="fragment_users"
+        tools:layout="@layout/fragment_users" />
+    <fragment
+        android:id="@+id/adsFragment"
+        android:name="com.example.rentalapp.AdsFragment"
+        android:label="fragment_ads"
+        tools:layout="@layout/fragment_ads" />
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.example.rentalapp.ChatFragment"
+        android:label="fragment_chat"
+        tools:layout="@layout/fragment_chat" />
+</navigation>

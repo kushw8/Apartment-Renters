@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TenantHomePage">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tenant_home_page_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/navyBlueDark"
+        android:gravity="top"
+        app:navigationIcon="@drawable/ic_baseline_back_24"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:titleMarginStart="15dp">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:text="Apartment Rentals - Tenant"
+            android:textStyle="bold" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="11dp"
+        android:background="@drawable/bottomnavigationviewmodified"
+        android:foregroundGravity="bottom"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/tenant_menu" />
+
+
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tenant_home_page_toolbar"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/tenant_nav"
+        android:layout_above="@+id/bottomNavigationView2"
+        tools:layout_editor_absoluteX="282dp"
+        tools:layout_editor_absoluteY="429dp" />
+
+
+</RelativeLayout>

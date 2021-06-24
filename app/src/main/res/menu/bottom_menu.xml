@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/firstFragment"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_home_24"/>
+    <item
+        android:id="@+id/secondFragment"
+        android:title="Add Ad"
+        android:icon="@drawable/ic_baseline_modify_24"/>
+    <item
+        android:id="@+id/thirdFragment"
+        android:title="Chats"
+        android:icon="@drawable/ic_baseline_chat_bubble_outline_24"/>
+    <item
+        android:id="@+id/fourthFragment"
+        android:title="Account"
+        android:icon="@drawable/ic_baseline_account_circle_24"/>
+</menu>

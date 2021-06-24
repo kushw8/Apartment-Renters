@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">RentalApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="login">LOGIN</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">REGISTER</string>
+    <string name="Forgot_password">Forgot password?</string>
+    <string name="firstname">FIRST NAME</string>
+    <string name="secondname">SECOND NAME</string>
+    <string name="emailaddress">EMAIL ADDRESS</string>
+    <string name="phone">PHONE</string>
+    <string name="changepassword">Change Password</string>
+    <string name="logoutofrentalapp">Log out of RentalApp</string>
+    <string name="searchbylocation">Search by location</string>
+    <string name="price">PRICE</string>
+    <string name="setlimit">Set limit</string>
+    <string name="contactusdesc">This is a apartment rental application created by five students from cegep college as their final year project</string>
+    <string name="contactus">Contact Us</string>
+
+
+    <!-- Firestore Strings -->
+    <string name="collection_users">Users</string>
+    <string name="collection_chatrooms">Chatrooms</string>
+    <string name="collection_chat_messages">Chat Messages</string>
+    <string name="collection_chatroom_user_list">User List</string>
+
+    <!-- Intent extras -->
+    <string name="intent_chatroom">intent_chatroom</string>
+    <string name="intent_user_list">intent_user_list</string>
+
+</resources>

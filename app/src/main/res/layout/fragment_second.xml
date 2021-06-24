@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/app_background"
+    tools:context=".SecondFragment">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="60dp"
+            android:backgroundTint="@color/babyBlue"
+            app:cardMaxElevation="8dp"
+            app:cardCornerRadius="15dp">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:id="@+id/imgSelect"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:background="#FFFFFF"
+                    android:paddingRight="10dp"
+                    android:src="@drawable/ic_addphoto"/>
+
+                <EditText
+                    android:id="@+id/edittxt_name"
+                    android:paddingStart="15dp"
+                    android:layout_width="350dp"
+                    android:layout_height="40dp"
+                    android:hint="Street Name"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/input_design"
+                    />
+                <EditText
+                    android:id="@+id/edittxt_place"
+                    android:paddingStart="15dp"
+                    android:layout_width="350dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:hint="Place"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/input_design"/>
+                <EditText
+                    android:id="@+id/edittxt_price"
+                    android:paddingStart="15dp"
+                    android:layout_width="350dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:hint="Price"
+                    android:layout_gravity="center"
+                    android:background="@drawable/input_design"/>
+
+                <EditText
+                    android:id="@+id/edittxt_type"
+                    android:paddingStart="15dp"
+                    android:layout_width="350dp"
+                    android:layout_height="50dp"
+                    android:hint="type"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/input_design"/>
+
+                <EditText
+                    android:id="@+id/edittxt_description"
+                    android:paddingStart="15dp"
+                    android:layout_width="350dp"
+                    android:layout_height="50dp"
+                    android:hint="Description"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/input_design"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_submit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="80dp"
+                    android:background="@drawable/input_design2"
+                    android:text="Submit"/>
+
+            </LinearLayout>
+
+
+            </ScrollView>
+        </androidx.cardview.widget.CardView>
+
+</FrameLayout>
